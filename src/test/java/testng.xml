@@ -1,0 +1,22 @@
+
+<suite name = "TestNG Sessions">
+	<test name = "TestNG Features">
+		
+		<!--Environment Variables-->
+		<parameter name = "env" value = "qa"/>
+		<parameter name = "browser" value = "chrome"/>
+		<parameter name = "url" value = "https://www.google.com"/>
+		<parameter name = "username" value = "primo_erasmo@gmail.com"/>
+		
+		<classes>
+			<!--
+			<class name = "testNg.Annotations" />
+			<class name = "testNg.Assertions" />
+			<class name = "testNg.dependsOnMethods" />
+			<class name = "testNg.Exceptions" />
+			<class name = "testNg.invocationCount" />
+			-->
+			<class name = "testNg.ParametersExample" />
+		</classes>
+	</test>
+</suite>
